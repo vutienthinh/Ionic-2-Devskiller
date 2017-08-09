@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Mobiliar Customers</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+	<div class="customer-wapper" *ngFor="let cus of customers">
+		<customer-app [curCustomer]="cus">
+
+		</customer-app>
+	</div>
+
+
+</ion-content>
+
